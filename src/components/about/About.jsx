@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/rumeysakose_.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FaBloggerB} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -9,9 +9,6 @@ const About = () => {
   return (
     
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
-
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
@@ -21,29 +18,42 @@ const About = () => {
 
         <div className="about_content">
           <div className="about_card">
+          <a href="https://www.linkedin.com/in/rumeysakose/details/experience/">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>6 Month Working</small>
+              <h5>Deneyim</h5>
+              <small>6 Ay Entry-Level</small>
             </article>
-
+          </a>
+          <a href="https://medium.com/@rumeysakose">
             <article className='about__card'>
               <FaBloggerB className='about__icon'/>
-              <h5>Blogs</h5>
-              <small>20+ Blogs</small>
+              <h5>Blog Yazıları</h5>
+              <small>10+ Blog Yazısı</small>
             </article>
-
+          </a>
+          <a href="https://github.com/koserumeysa">
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>3+ Completed</small>
+              <h5>Projelerim</h5>
+              <small>Tamamlanan 3+</small>
             </article>
+          </a>
           </div>
           <p>
-          Passionate Web And App Developement and Postman Student Expert (APIs). A detail oriented and multitasking professional with exceptional coding in computer science technology. Comprehensive knowledge of primary development languages for instance C++, Javascript, React, Python and Cloud computing or Deep understanding regarding software development environments.
+          Sürekli kendimi geliştirmek ve kendimi geliştirirken çevremdekilerin de gelişmesine katkı sağlamaya çalışıyorum çünkü birleşerek yükselmenin yükselip birleşmekten çok daha faydalı olduğuna inanıyorum.
+          </p>
+          <p>
+          Şu anda hem bilgisayar mühendisliği son sınıf öğrencisi hem de Şehir Teknolojileri Merkezinde bir Front-end geliştiricisiyim. Ayrıca proje yönetimi ve insan kaynakları alanında da minik sorumluluklar üstleniyorum. 
+          </p>
+          <p>
+          Araştırma, iletişim ve organizasyon becerilerinde yetkin, güçlü bir takım oyuncusu olduğumu düşünüyorum.
+          </p>
+          <p>
+          Yürümeyi, müzik dinlemeyi, fotoğraf ve video çekip düzenlemeyi, insanlarla etkileşim içerisinde olmayı, insanların kalplerine dokunmayı çok seviyorum.
           </p>
 
-          <a href="#contact" className='btn btn-1' >Let's Talk</a>
+          <a href="linkedin.com/in/rumeysakose" className='btn btn-1' >Bağlantı kuralım mı?</a>
         </div>
       </div>
     </section>

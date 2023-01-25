@@ -12,22 +12,20 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-varient: #2c2c6c;
-    --color-primary: #adc0cd;
-    --color-primary-verient: rgba(77, 181, 255, 0.4);
+    --color-bg: #520202;
+    --color-bg-varient: #9f2020;
+    --color-primary: #bb7006;
+    --color-primary-verient: #f6a000;
     --color-white: #fff ;
     --color-light: rgba(255, 255, 255, 0.6);
-    --color-my: rgba(151, 156, 157, 0.3);
-    --color-myphoto: #bec1c6;
+    --color-my: rgba(255, 174, 0, 0.3);
+    --color-myphoto: #d7a904;
     --color-yellow: #221123;
     --color-p: #66757d;
     --color-red: rgb(255, 0, 0);
-    --color-bg-1: rgb(0, 221, 255);
-    --color-bg-2: rgb(59, 186, 206);
-
+    --color-bg-1: #520202;
+    --color-bg-2: #bd1616d0;
     --transition: all 400ms ease;
-
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
@@ -47,10 +45,9 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
     /* background-image: url(../src/text.css); */
 
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 /* ================== MY STYLE ================== */
@@ -230,7 +227,7 @@ a:hover {
 
 /* ======= Button ========*/
 .btn-1 {
-    background: rgb(253, 219, 1);
+    background: rgb(253, 152, 1);
     color: rgb(0, 0, 0);
     border-radius: 30px;
     transition: transform 0.3 ease;
@@ -238,7 +235,6 @@ a:hover {
 .btn-1::after, .btn-1::before {
     content: "";
     position: absolute;
-    opacity: 0.3;
     /* background: #000; */
     border-radius: inherit;
     width: 100%;
@@ -277,7 +273,7 @@ a:hover {
     font-size: 1rem;
     text-transform: uppercase;
     /* background: transparent; */
-    background: #adc0cd;
+    background: #adc2cd;
 
     color: rgb(15, 12, 14);
     border: 1px solid rgb(255, 255, 255);
